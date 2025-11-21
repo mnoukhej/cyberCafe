@@ -7,9 +7,24 @@
 
 <!-- TREE_START -->
 ```
+├── Dockerfile
 ├── README.md
+├── README_CICD.md
+├── README_DEPLOYMENT.md
+├── aap.py
+├── docker-compose.yml
+├── frontend
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── src
+│   │   ├── App.js
+│   │   ├── index.css
+│   │   └── index.js
+│   └── tailwind.config.js
 ├── requirements.txt
 ├── setup.bat
+├── templates
+│   └── index.html
 └── update_tree.py
 ```
 <!-- TREE_END -->
