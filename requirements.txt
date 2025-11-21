@@ -1,0 +1,8 @@
+Flask==2.3.2
+Pillow==10.0.0
+rembg==2.0.1
+opencv-python==4.8.0.76
+mediapipe==0.10.0
+fpdf==1.7.2
+numpy==1.26.0
+python-multipart==0.0.6

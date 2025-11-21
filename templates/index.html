@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passport Photo Auto</title>
+  <style>
+    body{font-family: Arial, sans-serif; max-width:800px; margin:40px auto}
+    .card{border:1px solid #ddd;padding:20px;border-radius:8px}
+    label{display:block;margin-top:10px}
+  </style>
+</head>
+<body>
+  <h1>Auto Passport & Stamp Photo</h1>
+  <div class="card">
+    <form method="post" action="/process" enctype="multipart/form-data">
+      <label>Upload Photo (jpg/png):</label>
+      <input type="file" name="photo" accept="image/*" required>
+
+      <label>Background color:</label>
+      <select name="bg_color">
+        <option value="#FFFFFF">White</option>
+        <option value="#3b82f6">Light Blue</option>
+        <option value="#ff0000">Red</option>
+        <option value="#808080">Grey</option>
+        <option value="#F0E68C">Custom (Khaki)</option>
+      </select>
+
+      <label>Copies (choose 3 or 6):</label>
+      <select name="copies">
+        <option value="3">3 copies</option>
+        <option value="6" selected>6 copies</option>
+      </select>
+
+      <div style="margin-top:15px">
+        <button type="submit">Process & Download ZIP</button>
+      </div>
+    </form>
+  </div>
+
+  <p style="margin-top:20px;color:#666">Notes: After upload the server will automatically remove background, crop, resize, enhance, and prepare downloadable files.</p>
+</body>
+</html>
