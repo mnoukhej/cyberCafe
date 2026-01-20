@@ -1,8 +1,0 @@
-{
-  "passport_photo": { "width_mm": 35, "height_mm": 45 },
-  "stamp_photo": { "width_mm": 25, "height_mm": 35 },
-  "pan_card": { "width_mm": 85, "height_mm": 54 },
-  "voter_id": { "width_mm": 85, "height_mm": 54 },
-  "aadhaar_half": { "width_mm": 210, "height_mm": 148 },
-  "aadhaar_full": { "width_mm": 210, "height_mm": 297 }
-}
