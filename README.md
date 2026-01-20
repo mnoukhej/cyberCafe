@@ -8,32 +8,9 @@
 <!-- TREE_START -->
 ```
 ├── README.md
-├── config
-│   └── sizes.json
-├── core
-│   ├── __init__.py
-│   ├── aadhaar_document.py
-│   ├── document_base.py
-│   ├── pan_document.py
-│   ├── photo_document.py
-│   └── voterid_document.py
-├── main.py
 ├── requirements.txt
 ├── setup.bat
-├── temp
-├── ui
-│   ├── __init__.py
-│   └── main_window.py
-├── update_tree.py
-└── utils
-    ├── __init__.py
-    ├── exceptions.py
-    ├── file_uploader.py
-    ├── image_processor.py
-    ├── layout_manager.py
-    ├── pdf_processor.py
-    ├── print_manager.py
-    └── temp_manager.py
+└── update_tree.py
 ```
 <!-- TREE_END -->
 
